@@ -318,8 +318,16 @@
 
     &:hover &--hover{
         margin-right: 0rem;
+    
+        &--icone{
+            animation-name: rotate-icone;
+            animation-duration: 0.9s;
+            animation-iteration-count: 1;
+
+        }
     }
 }
+
 
 .menu__list__cards--infos{
     display: flex;
