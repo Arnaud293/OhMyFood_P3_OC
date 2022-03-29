@@ -1,0 +1,11 @@
+.button{
+    background: $color-primary;
+    background: $gradient-button;
+    @include button
+    
+
+    &:hover{
+        
+        @include button-hover;  
+    }
+}

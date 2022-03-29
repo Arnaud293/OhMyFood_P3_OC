@@ -1,0 +1,28 @@
+.footer
+{
+    width: auto;
+    height: 25vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    & h3{
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        margin-left: 1rem;
+        font-family:'Shrikhand';
+        
+    }
+
+    & a{
+        text-decoration: none;
+        color: white;
+        padding-bottom: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    & i{
+        margin-right: 0.5rem;
+    }
+}
