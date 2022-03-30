@@ -524,7 +524,7 @@ body {
 }
 
 .menu1__list {
-  height: 180vh;
+  height: 190vh;
   width: 100%;
   background-color: #F2F2F2;
   margin-top: -7rem;
@@ -621,14 +621,21 @@ body {
   font-size: 1.2em;
   font-weight: bold;
   margin-right: 1vh;
+  margin-left: 1rem;
 }
 
 .menu__list__cards--texte h2 {
   font-size: 1.2em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menu__list__cards--texte p {
   font-weight: 100;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .menu__list__cards--texte {
@@ -665,6 +672,9 @@ body {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .menu__list__cards--hover {
