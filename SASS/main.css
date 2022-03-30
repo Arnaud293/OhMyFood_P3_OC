@@ -36,31 +36,31 @@
   }
 }
 
-@-webkit-keyframes slide-hover-cards {
+@-webkit-keyframes rotate-icone {
   0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
   }
   100% {
-    transform: translateX(-100px);
-    -webkit-transform: translateX(-100px);
-    -moz-transform: translateX(-100px);
-    -ms-transform: translateX(-100px);
-    -o-transform: translateX(-100px);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 
-@keyframes slide-hover-cards {
+@keyframes rotate-icone {
   0% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
   }
   100% {
-    transform: translateX(-100px);
-    -webkit-transform: translateX(-100px);
-    -moz-transform: translateX(-100px);
-    -ms-transform: translateX(-100px);
-    -o-transform: translateX(-100px);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 
@@ -641,6 +641,15 @@ body {
 
 .menu__list__cards:hover .menu__list__cards--hover {
   margin-right: 0rem;
+}
+
+.menu__list__cards:hover .menu__list__cards--hover--icone {
+  -webkit-animation-name: rotate-icone;
+          animation-name: rotate-icone;
+  -webkit-animation-duration: 0.9s;
+          animation-duration: 0.9s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 .menu__list__cards--infos {
