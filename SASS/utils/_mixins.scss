@@ -36,3 +36,10 @@
     align-items: center;
     justify-content: center;
 }
+
+/*Mixins Responsive design*/
+
+@mixin fct__cards__responsive {
+    margin-left: 30%;
+    font-size: 2em;
+}
