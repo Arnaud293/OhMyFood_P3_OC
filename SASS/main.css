@@ -823,5 +823,8 @@ body {
   .menu__dessert__list {
     margin-bottom: 1rem;
   }
+  .all__menu__list article {
+    width: 30%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
