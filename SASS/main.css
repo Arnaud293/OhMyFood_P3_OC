@@ -212,8 +212,8 @@ body {
 }
 
 .header__menu--fleche {
-  position: relative;
-  right: 5rem;
+  position: fixed;
+  left: 1rem;
   font-size: 1.5em;
   text-decoration: none;
   color: black;
