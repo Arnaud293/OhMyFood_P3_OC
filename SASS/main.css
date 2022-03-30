@@ -774,4 +774,19 @@ body {
     width: 75%;
   }
 }
+
+/* MEDIA QUERIES DESKTOP */
+@media all and (min-width: 992px) {
+  .fonctionnement__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .fonctionnement__cards, .fonctionnement__cardspink {
+    width: 25%;
+  }
+}
 /*# sourceMappingURL=main.css.map */

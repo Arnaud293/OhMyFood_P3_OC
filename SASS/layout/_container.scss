@@ -420,3 +420,17 @@
         width: 75%;
     }
 }
+
+/* MEDIA QUERIES DESKTOP */
+
+@media all and (min-width: 992px)
+{
+    .fonctionnement__list{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .fonctionnement__cards, .fonctionnement__cardspink{
+        width: 25%;
+    }
+}
