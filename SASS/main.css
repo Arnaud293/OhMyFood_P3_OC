@@ -826,5 +826,8 @@ body {
   .all__menu__list article {
     width: 30%;
   }
+  .menu__plat__list {
+    margin-bottom: 2rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
