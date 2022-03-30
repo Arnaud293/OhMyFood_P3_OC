@@ -1,3 +1,77 @@
+.loader{
+    background: rgba($color: #ffffff,$alpha: 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: OhmyBlur;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+
+    &--O, &--Oh, &--Ohm, &--Ohmy, &--OhmyF, &--OhmyFo, &--OhmyFoo, &--OhmyFood{
+        font-size: 4em;
+        font-family: 'Shrikhand';
+        background: $gradient-heart;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color:transparent;
+        
+    }
+}
+
+.loader--O{
+    animation-name: Oo;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+
+.loader--Oh{
+    animation-name: Oh;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+
+.loader--Ohm{
+    animation-name: Ohm;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+
+.loader--Ohmy{
+    animation-name: Ohmy;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+
+.loader--OhmyF{
+    animation-name: OhmyF;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+
+.loader--OhmyFo{
+    animation-name: OhmyFo;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+
+.loader--OhmyFoo{
+    animation-name: OhmyFoo;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+
+.loader--OhmyFood{
+    animation-name: OhmyFood;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+}
+
+
 .explo{
     background-color: #F1F1F1;
     height: 35vh;
@@ -419,6 +493,11 @@
     .restaurants__cards{
         width: 75%;
     }
+
+    .footer{
+        display: grid;
+        justify-items: center;
+    }
 }
 
 /* MEDIA QUERIES DESKTOP */
@@ -474,5 +553,10 @@
 
     .menu__plat__list{
         margin-bottom: 2rem;
+    }
+
+    .footer{
+        display: grid;
+        justify-items: center;
     }
 }

@@ -32,3 +32,177 @@
               transform: rotate(0deg);
     }
 }
+
+@keyframes page-loader {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+    }
+    100% {
+      -webkit-transform: rotateY(180deg);
+              transform: rotateY(180deg);
+    }
+}
+
+/*KEYFRAMES LOADER*/
+
+  
+
+
+@keyframes Oo {
+    0%{ transform: translate(-400px,100px); -webkit-transform: translate(-400px,100px); -moz-transform: translate(-400px,100px); -ms-transform: translate(-400px,100px); -o-transform: translate(-400px,100px);
+}
+    100%{
+        transform: translate(0px,0px);
+        -webkit-transform: translate(0px,0px);
+        -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+        -o-transform: translate(0px,0px);
+       
+    }
+}
+
+@keyframes Oh {
+    0%{
+        transform: translate(0px,700px);
+        -webkit-transform: translate(0px,700px);
+        -moz-transform: translate(0px,700px);
+        -ms-transform: translate(0px,700px);
+        -o-transform: translate(0px,700px);
+        
+    }
+    100%{
+        transform: translate(0px,0px);
+        -webkit-transform: translate(0px,0px);
+        -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+        -o-transform: translate(0px,0px);
+  
+    }
+      
+}
+
+@keyframes Ohm {
+    0%{
+        transform: translate(0px,-800px);
+        -webkit-transform: translate(0px,-800px);
+        -moz-transform: translate(0px,-800px);
+        -ms-transform: translate(0px,-800px);
+        -o-transform: translate(0px,-800px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+        -webkit-transform: translate(0px,0px);
+        -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+        -o-transform: translate(0px,0px);
+        
+    }
+}
+      
+
+
+@keyframes Ohmy {
+
+    0%{
+        transform: translate(0px,700px);
+        -webkit-transform: translate(0px,700px);
+        -moz-transform: translate(0px,700px);
+        -ms-transform: translate(0px,700px);
+        -o-transform: translate(0px,700px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+        -webkit-transform: translate(0px,0px);
+        -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+        -o-transform: translate(0px,0px);
+    }
+      
+}
+
+@keyframes OhmyF {
+    0%{
+        transform: translate(0px,-900px);
+        -webkit-transform: translate(0px,-900px);
+        -moz-transform: translate(0px,-900px);
+        -ms-transform: translate(0px,-900px);
+        -o-transform: translate(0px,-900px);
+    }
+    100%{
+        transform: translate(0px,0px);
+        -webkit-transform: translate(0px,0px);
+        -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+        -o-transform: translate(0px,0px);
+    }
+      
+}
+
+@keyframes OhmyFo {
+    0%{
+        transform: translate(0px,700px);
+        -webkit-transform: translate(0px,700px);
+        -moz-transform: translate(0px,700px);
+        -ms-transform: translate(0px,700px);
+        -o-transform: translate(0px,700px);
+    }
+    100%{
+        transform: translate(0px,0px);
+        -webkit-transform: translate(0px,0px);
+        -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+        -o-transform: translate(0px,0px);
+    }
+      
+}
+
+@keyframes OhmyFoo {
+    0%{
+        transform: translate(0px,-900px);
+        -webkit-transform: translate(0px,-900px);
+        -moz-transform: translate(0px,-900px);
+        -ms-transform: translate(0px,-900px);
+        -o-transform: translate(0px,-900px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+        -webkit-transform: translate(0px,0px);
+        -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+        -o-transform: translate(0px,0px);
+    }
+      
+}
+
+@keyframes OhmyFood {
+    0%{
+        transform: translate(400px,-100px);
+        -webkit-transform: translate(400px,-100px);
+        -moz-transform: translate(400px,-100px);
+        -ms-transform: translate(400px,-100px);
+        -o-transform: translate(400px,-100px);
+    }
+    100%{
+        transform: translate(0px,0px);
+        -webkit-transform: translate(0px,0px);
+        -moz-transform: translate(0px,0px);
+        -ms-transform: translate(0px,0px);
+        -o-transform: translate(0px,0px);
+    }
+}
+
+@keyframes OhmyBlur
+{
+    0% {
+        -webkit-filter: blur(0.01);
+        filter: blur(0.01);
+    }
+      100% {
+        -webkit-filter: blur(16px) opacity(0%);
+        filter: blur(16px) opacity(0%);
+}
+}
