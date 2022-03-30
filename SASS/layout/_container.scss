@@ -433,4 +433,38 @@
     .fonctionnement__cards, .fonctionnement__cardspink{
         width: 25%;
     }
+
+    .restaurants h2{
+        margin-left: 5%;
+    }
+
+    .restaurants__cards{
+        width: 40%;
+    }
+    .restaurants__list{
+        justify-content: space-around;
+    }
+
+    .button{
+        max-width: 20%;
+    }
+
+    .menu1__background{
+        height: auto;
+        max-height: 70vh;
+    }
+
+    .all__menu__list{
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu1__list{
+        height: 95%;
+    }
+
+    .menu__dessert__list{
+        margin-bottom: 1rem;
+    }
 }
