@@ -390,5 +390,34 @@
 
 @media all and (min-width: 768px) and (max-width: 992px)
 {
-    
+    .fonctionnement__cards--texte{
+        @include fct__cards__responsive;
+    }
+
+    .fontionnement__cards--icone{
+        font-size: 2em;
+        margin-left: 5%;
+    }
+
+    .fonctionnement__cardspink--texte{
+        @include fct__cards__responsive;
+    }
+
+    .fontionnement__cardspink--icone{
+        font-size: 2em;
+        margin-left: 4%;
+
+    }
+
+    .fonctionnement__cards, .fonctionnement__cardspink{
+        width: 75%;
+    }
+
+    .fonctionnement h2, .restaurants h2{
+        margin-left: 12%;
+    }
+
+    .restaurants__cards{
+        width: 75%;
+    }
 }

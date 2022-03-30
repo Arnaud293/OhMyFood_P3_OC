@@ -748,4 +748,31 @@ body {
 }
 
 /* MEDIA QUERIES TAB */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .fonctionnement__cards--texte {
+    margin-left: 15%;
+    font-size: 1.5em;
+  }
+  .fontionnement__cards--icone {
+    font-size: 2em;
+    margin-left: 5%;
+  }
+  .fonctionnement__cardspink--texte {
+    margin-left: 15%;
+    font-size: 1.5em;
+  }
+  .fontionnement__cardspink--icone {
+    font-size: 2em;
+    margin-left: 4%;
+  }
+  .fonctionnement__cards, .fonctionnement__cardspink {
+    width: 75%;
+  }
+  .fonctionnement h2, .restaurants h2 {
+    margin-left: 12%;
+  }
+  .restaurants__cards {
+    width: 75%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
