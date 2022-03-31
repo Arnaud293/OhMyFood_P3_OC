@@ -479,7 +479,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 55%;
+  width: 60%;
   -webkit-box-shadow: 0px 2px 13px 1px rgba(195, 195, 195, 0.99);
           box-shadow: 0px 2px 13px 1px rgba(195, 195, 195, 0.99);
   font-size: 0.9em;
