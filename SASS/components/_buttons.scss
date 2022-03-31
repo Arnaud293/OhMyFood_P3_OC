@@ -1,11 +1,11 @@
-.button{
+.button {
     background: $color-primary;
     background: $gradient-button;
-    @include button
-    
+    @include button;
 
-    &:hover{
-        
-        @include button-hover;  
+
+    &:hover {
+
+        @include button-hover;
     }
 }
