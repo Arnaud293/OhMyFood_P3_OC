@@ -1,11 +1,11 @@
 /*Mixins Responsive design*/
 @-webkit-keyframes slide-menu-cards {
   0% {
-    transform: translateY(15px);
-    -webkit-transform: translateY(15px);
-    -moz-transform: translateY(15px);
-    -ms-transform: translateY(15px);
-    -o-transform: translateY(15px);
+    transform: translateY(35px);
+    -webkit-transform: translateY(35px);
+    -moz-transform: translateY(35px);
+    -ms-transform: translateY(35px);
+    -o-transform: translateY(35px);
     opacity: 0;
   }
   100% {
@@ -19,11 +19,11 @@
 }
 @keyframes slide-menu-cards {
   0% {
-    transform: translateY(15px);
-    -webkit-transform: translateY(15px);
-    -moz-transform: translateY(15px);
-    -ms-transform: translateY(15px);
-    -o-transform: translateY(15px);
+    transform: translateY(35px);
+    -webkit-transform: translateY(35px);
+    -moz-transform: translateY(35px);
+    -ms-transform: translateY(35px);
+    -o-transform: translateY(35px);
     opacity: 0;
   }
   100% {
@@ -649,10 +649,6 @@ body {
   color: transparent;
 }
 
-.loader::after {
-  z-index: -1;
-}
-
 .loader--O {
   -webkit-animation-name: Oo, Ohmyblur, fontless;
           animation-name: Oo, Ohmyblur, fontless;
@@ -1076,6 +1072,7 @@ body {
   -o-transition: 0.5s;
 }
 
+/*ANIM CARDS MENUS*/
 .menu__list__cards {
   background-color: white;
   height: 10vh;
@@ -1093,12 +1090,6 @@ body {
           align-items: center;
   -webkit-box-shadow: 0px 2px 15px 0px #D3D3D3;
           box-shadow: 0px 2px 15px 0px #D3D3D3;
-  -webkit-animation-name: slide-menu-cards;
-          animation-name: slide-menu-cards;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
 }
 
 .menu__list__cards--prix {
@@ -1198,6 +1189,23 @@ body {
   gap: 1rem;
 }
 
+.entree__list__all__cards {
+  gap: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation-name: slide-menu-cards;
+          animation-name: slide-menu-cards;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
 .menu__plat__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1209,6 +1217,25 @@ body {
   gap: 1rem;
 }
 
+.plat__list__all__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  -webkit-animation-name: slide-menu-cards;
+          animation-name: slide-menu-cards;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
 .menu__dessert__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1218,6 +1245,25 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 1rem;
+}
+
+.dessert__list__all__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+  -webkit-animation-name: slide-menu-cards;
+          animation-name: slide-menu-cards;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 
 .menu__bouton {
