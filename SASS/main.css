@@ -483,6 +483,7 @@ body {
   -webkit-box-shadow: 0px 2px 13px 1px rgba(195, 195, 195, 0.99);
           box-shadow: 0px 2px 13px 1px rgba(195, 195, 195, 0.99);
   font-size: 0.9em;
+  margin-top: 2rem;
 }
 
 .button:hover {
@@ -1010,7 +1011,7 @@ body {
 }
 
 .menu1__list {
-  height: 190vh;
+  height: auto;
   width: 100%;
   background-color: #F2F2F2;
   margin-top: -7rem;
@@ -1028,9 +1029,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .menu__list--titre {
