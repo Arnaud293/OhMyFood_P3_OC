@@ -209,8 +209,8 @@
 
 @keyframes OhmyBlur {
     0% {
-        -webkit-filter: blur(0.01);
-        filter: blur(0.01);
+        -webkit-filter: blur(0.01px);
+        filter: blur(0.01px);
         transform: translate(0px, 0px);
         -webkit-transform: translate(0px, 0px);
         -moz-transform: translate(0px, 0px);
