@@ -424,6 +424,24 @@
   }
 }
 
+@-webkit-keyframes noMyBlur {
+  0% {
+    z-index: 5;
+  }
+  100% {
+    z-index: 0;
+  }
+}
+
+@keyframes noMyBlur {
+  0% {
+    z-index: 5;
+  }
+  100% {
+    z-index: 0;
+  }
+}
+
 #bloc_page {
   width: auto;
 }
@@ -627,8 +645,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-animation-name: OhmyBlur;
-          animation-name: OhmyBlur;
+  -webkit-animation-name: OhmyBlur, noMyBlur;
+          animation-name: OhmyBlur, noMyBlur;
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
   -webkit-animation-duration: 2s;
