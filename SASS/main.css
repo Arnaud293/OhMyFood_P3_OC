@@ -658,7 +658,7 @@ body {
 }
 
 .loader--O, .loader--Oh, .loader--Ohm, .loader--Ohmy, .loader--OhmyF, .loader--OhmyFo, .loader--OhmyFoo, .loader--OhmyFood {
-  font-size: 4em;
+  font-size: 3em;
   font-family: 'Shrikhand';
   background: -webkit-gradient(linear, left top, left bottom, color-stop(32%, #9356dc), color-stop(97%, #ff79da));
   background: linear-gradient(180deg, #9356dc 32%, #ff79da 97%);
@@ -988,12 +988,12 @@ body {
 .restaurants__list a:hover {
   -webkit-box-shadow: 0px 11px 14px 5px #B1B1B1;
           box-shadow: 0px 11px 14px 5px #B1B1B1;
-  -webkit-filter: brightness(115%);
-          filter: brightness(115%);
+  filter: brightness(115%);
   -webkit-transform: scale(1.01);
           transform: scale(1.01);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  -webkit-filter: brightness(115%);
 }
 
 .restaurant__cards--new {
@@ -1391,6 +1391,22 @@ body {
     display: -ms-grid;
     display: grid;
     justify-items: center;
+  }
+}
+
+/* MEDIA QUERIES GALAXY FOLD */
+@media all and (min-width: 280px) and (max-width: 392px) {
+  .loader {
+    display: none;
+  }
+  .menu__list__cards--prix {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 2vh;
+    margin-left: -6rem;
+  }
+  .menu__list__cards--texte {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=main.css.map */
