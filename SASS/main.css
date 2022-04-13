@@ -593,8 +593,6 @@ body {
 .header__menu--fleche {
   position: fixed;
   left: 1rem;
-  right: 0rem;
-  bottom: 0rem;
   top: 1.4rem;
   font-size: 1.5em;
   text-decoration: none;
@@ -1055,7 +1053,6 @@ body {
   margin-bottom: 1.2rem;
   margin-top: 1rem;
   text-transform: uppercase;
-  border-bottom: #99E2D0 5px solid;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
