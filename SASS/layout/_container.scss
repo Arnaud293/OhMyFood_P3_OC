@@ -342,9 +342,18 @@
     text-transform: uppercase;
     width: fit-content;
     padding-bottom: 1em;
+    position: relative;
 }
 
-
+.menu__list--titre::after {
+    content: "";
+    width: 4rem;
+    height: 0.3rem;
+    background-color: $color-tertiary;
+    position: absolute;
+    bottom: .5rem;
+    left: 0;
+}
 
 .menu1__background--titre {
     font-family: 'Shrikhand';
