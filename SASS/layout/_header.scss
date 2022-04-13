@@ -1,40 +1,40 @@
-.header{
-display: flex;
-justify-content: center;
-align-items: center;
-width: auto;
-height: 10vh;
-z-index: 2;
-box-shadow: 0 0 20px 8px $color-shadow1;
-background-color: rgba($color: #ffffff, $alpha: 0.9);
-top: 0;
-z-index: 2;
-position: sticky;
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 10vh;
+    z-index: 2;
+    box-shadow: 0 0 20px 8px $color-shadow1;
+    background-color: rgba($color: #ffffff, $alpha: 0.9);
+    top: 0;
+    z-index: 2;
+    position: sticky;
 
-    &__logo{
+    &__logo {
         width: 160px;
         height: 35px;
     }
 }
 
-.localisation{
+.localisation {
     background-color: $color-shadow1;
     height: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 
-    & h2{
+
+    & h2 {
         margin: 1rem;
         font-size: 1em;
-        font-family:'Roboto-standard';
+        font-family: 'Roboto-standard';
     }
 }
 
 /*MENU 1*/
 
-.header__menu{
+.header__menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,14 +46,17 @@ position: sticky;
     top: 0;
     position: sticky;
 
-    &__logo{
+    &__logo {
         width: 160px;
         height: 35px;
     }
 
-    &--fleche{
+    &--fleche {
         position: fixed;
         left: 1rem;
+        right: 0rem;
+        bottom: 0rem;
+        top: 1.4rem;
         font-size: 1.5em;
         text-decoration: none;
         color: black;
